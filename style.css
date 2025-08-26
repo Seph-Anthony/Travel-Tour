@@ -12,7 +12,7 @@ body{
     justify-content:space-evenly;
     flex-wrap: wrap;
     flex-direction: row;
-    max-width:1500px;
+    
     background-color: #ddecdd;
     gap:10px;
     margin:0 auto 0 0;
@@ -162,7 +162,7 @@ text-align: center;
     font-weight: 500;
     font-size: 15px;
     color:white;
-    font-family: "Funnel Display", sans-serif;
+      font-family: "Montserrat", sans-serif;
 }
 .trusted{
     text-align: center;
@@ -176,7 +176,7 @@ text-align: center;
 
 }
 .descrip{
-      font-family: "Funnel Display", sans-serif;
+      font-family: "Montserrat", sans-serif;
       color:white;
     margin:0;
     
@@ -264,4 +264,90 @@ width:40%;
     font-weight: 700;
  font-family: "Oswald", sans-serif;
 }
+/* THIRD SECTION */
+.thirdsection{
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: row;
+ 
+flex-wrap: wrap;
+padding:30px;
+margin: 0 auto;
+background-color: #F3F9F3;
+}
+.outerthird{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap:15px;
+
+    min-width: 400px;
+    width:400px;
+
+   
+
+}
+.free{
+    font-weight: 800;
+     font-family: "Oswald", sans-serif;
+     font-size: 18px;
+     margin-top:70px;
+     color:#252e15 ;
+}
+.lowerfree{
+font-family: "Funnel Display", sans-serif;
+    color:#252e15 ;
+     font-size: 13px;
+}
+.picthird{
+    color:#85a15a;
+      
+      font-size: 40px;
+
+}
+/* FOURTH SECTION */
+.fourthsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+   margin: 0 auto;
+   padding:0;
+   
+}
+.innerfourth{
+display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: row;
+     flex-wrap: wrap;
+
+
+
+
+}
+.pic{
+height:400px;
+flex:1;
+
+ object-fit: cover;
+
+}
+.picture{
+ min-height: 400px;
+    max-width:100%;
+min-width: 350px;
+   
+    object-fit: cover;
+   
+
+}
+
+
+
 
