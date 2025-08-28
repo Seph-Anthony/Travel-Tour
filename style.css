@@ -45,8 +45,9 @@ text-align: center;
     align-items: center;
     justify-content: center; 
     padding-bottom: 33px;
- max-width: 500px;
+ max-width: 550px;
     width:90%;
+  
    
 
    
@@ -259,7 +260,7 @@ width:40%;
     margin:5px;
 }
 .weteam{
-    color:#3d4b23 ;
+    color:rgb(29, 31, 20);
     font-size: 48px;
     font-weight: 700;
  font-family: "Oswald", sans-serif;
@@ -276,7 +277,7 @@ width:40%;
 flex-wrap: wrap;
 padding:30px;
 margin: 0 auto;
-background-color: #F3F9F3;
+    background-color: rgb(223, 227, 202);
 }
 .outerthird{
     display: flex;
@@ -318,6 +319,7 @@ font-family: "Funnel Display", sans-serif;
     flex-direction: column;
    margin: 0 auto;
    padding:0;
+
    
 }
 .innerfourth{
@@ -348,6 +350,131 @@ min-width: 350px;
 
 }
 
+/* FIFTH SECTION */
+.fifthsection{
+
+    display: flex;
+    align-items: stretch;
+    justify-content:space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+  padding-top:50px;
+   
+    background-color: rgb(223, 227, 202);
+}
+.contactsnisha{
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+.wardplane, .ward, .wardcontact, .wardsocial{
+
+     list-style-type: none;
+     margin:20px;
+}
+.wardplane{
+        font-family: "Oswald", sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+
+}
+.wardcontact{
+    font-family: "Oswald", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+     
+}
+.fa-phone, .fa-envelope{
+    margin:10px;
+}
+.ward{
+        font-family: "Quicksand", sans-serif;
+        font-size: 13px;
+}
+.wardsocial{
+    font-size: 20px;
+}
+.about{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding:10px;
+
+    margin:20px;
+}
+.menu{
+   margin:20px;
+  max-width:300px;
+  min-width:100px;
+
+   
+
+}
+.input{
+   color: rgb(108, 133, 11);
+   font-size: 12px;
+           font-family: "Quicksand", sans-serif;
+           font-weight: 700;
+}
+.menu li{
+    list-style-type: none;
+}
+.picks{
+    list-style-type: none;
+       font-size: 12px;
+           font-family: "Quicksand", sans-serif;
+           color:black;
+           margin:8px;
+           font-weight: 600;
+}
+.sixthsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+       
+    background-color: rgb(223, 227, 202);
+}
+hr{
+    width:90%;
+border-style: solid;
+border-color: gray;
+}
+.lastone{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+    width:90%;
+    
+}
+.second{
+       font-family: "Quicksand", sans-serif;
+      font-size: 18px;
+      font-weight: 800;
+}
+
+.third, .fa-location-dot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+      font-family: "Quicksand", sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+}
+.third p {
+    margin:5px;
+}
 
 
 
